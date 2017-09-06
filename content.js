@@ -1,3 +1,3 @@
 const content = {
-    "title": "Awesome Chinese Restaurant"
+    title: "Awesome Chinese Restaurant"
 }
