@@ -4,6 +4,7 @@
 }
 body {
     background-color: #ededed;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #wrapper {
@@ -15,26 +16,44 @@ body {
 
 #heading{
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
 }
 
 #navigation{
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
 }
 
-#navigation ul li{
+nav ul {
+    background-color: #f1f1f1;
+}
+
+#navigation ul li {
+    display: block;
     padding: 2px 20px;
     list-style-type: none;
 }
-#navigation ul ul li{
-    padding: 2px 40px;
+
+#navigation ul li ul {
+    display: block;
+    padding: 2px 20px;
+    list-style-type: none;
 }
+
+#navigation a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: #555;
+    color: white;
+}
+
 #british_menu{
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
 }
 
@@ -52,7 +71,6 @@ body {
 
 #chinese_menu {
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
     
 }
@@ -69,25 +87,4 @@ body {
 .column {
     padding: 10px;
     margin: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-
-nav li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color on hover */
-nav li a:hover {
-    background-color: #555;
-    color: white;
 }
