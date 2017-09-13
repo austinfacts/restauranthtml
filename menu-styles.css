@@ -13,6 +13,43 @@ body {
     padding: 5px;
 }
 
+#heading{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+#navigation{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+#navigation ul li{
+    padding: 2px 20px;
+    list-style-type: none;
+}
+#navigation ul ul li{
+    padding: 2px 40px;
+}
+#british_menu{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+#british_menu dl{
+    padding: 10px 20px;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+#british_menu dd{
+    padding: 0px 20px;
+    font-size: 70%;
+    font-style: italic;
+}
+
 #chinese_menu {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;

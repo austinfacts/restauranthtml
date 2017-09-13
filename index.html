@@ -5,17 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Restaurant</title>
-    <link rel="stylesheet" href="menu-styles.css">
+    <link rel="stylesheet" href="menu-styles.css"/>
 </head>
 <body>
     
     <div id="wrapper">
+        <section id="heading">
+            <h1>Best Restaurant</h1>
+            <h5>British and Chinese food served at your convenience in Buckingham Palace.</h5>
+        </section>
+        <section id= "navigation">
+            <nav>
+                <ul>
+                    <li><a href="#british_menu">British Menu</a></li>
+                        <ul>
+                            <li><a href="#british_appetizers">Appetizers</a></li>
+                            <li><a href="#british_fish">Fish and Chips</a></li>
+                            <li><a href="#british_salads">Salads</a></li>
+                            <li><a href="#british_pies">Meat Pies</a></li>
+                        </ul>
+                    <li><a href="#chinese_menu">Chinese Menu</a></li>
+                        <ul>
+                            <li><a href="#chinese_appetizers">Appetizers</a></li>
+                            <li><a href="#chinese_entrees">Entrees</a></li>
+                            <li><a href="#chinese_desserts">Desserts</a></li>
+                        </ul>
+                    <li><a href="#restaurant_location">Our Location</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="british_menu">
+            <h3>British Menu</h3>
+            <section id="british_appetizers">
+                <h4>Appetizers<img src="images/appetizer_image.png" alt="Bubble and Squeak dish" width=20% height=20% align="right"></h4>
+                <h6>Spark up your appetite with a staple British appetizer.</h6>
+                <dl>
+                    <dt>Bubble and Squeak $5.25</dt>
+                        <dd>Fried vegetables mixed with mashed potatoes topped with an egg served sunny side up.</dd>
+                    <dt>Scottish Tattie Scones $4.50</dt>
+                        <dd>Two scones baked from a mix of potatoes, egg, and flour.</dd>
+                    <dt>Classic Prawn Cocktail $6.00</dt>
+                        <dd>Prawn dipped in a sauce made out of mayonnaise, creamed hourseradish, and ketchup elegantly placed inside a wine glass.</dd>
+                </dl>
+            </section>
+            <section id="british_fish">
+                <h4>Fish and Chips<img src="images/fish_image.jpg" alt="Fish and chips dish" width=20% height=20% align="right"></h4>
+                <h6>The most typical British dish. Choose a fish to go along with chips (fries).</h6>
+                <dl>
+                    <dt>Cod $9.00</dt>
+                        <dd>The good old classic way to serve fish and chips. Battered Cod with a side of chips. Can include a second serving of fish for $2.00</dd>
+                    <dt>Pollock $10.00</dt>
+                        <dd>The staple Westcountry-style fish offering a sweet taste and flaky texture. Can include a second serving of fish for $2.00.</dd>
+                    <dt>Haddock $11.00</dt>
+                        <dd>A Northern fish with a sweet taste and dry texture served with a side of chips. Can include a second serving of fish for $3.00</dd>
+                    <dt>Skate $13.00</dt>
+                        <dd>Gourmet fish form France with a mild nutty flavor served with a side of chips. Can include a second serving of fish for $3.00</dd>
+                </dl>
+            </section>
+            <section id="british_salads">
+                <h4>Salads<img src="images/salad_image.jpg" alt="Duck Salad Lyonnaise dish" width=20% height=20% align="right"></h4>
+                <h6>For a lighter dish, but with flavors common in the United Kingdom.</h6>
+                <dl>
+                    <dt>Caesar Salad $6.00</dt>
+                        <dd>Creamy salad with croutons, eggs, and grated cheese.</dd>
+                    <dt>Duck Salad Lyonnaise $9.00</dt>
+                        <dd>Salad with duck legs, Lyonnaise sausages, black olives, and basil</dd>
+                    <dt>English Garden $8.00</dt>
+                        <dd>Salad with potatoes, cucumber, sun-dried tomatoes, and green beans covered in a mustard, honey, and mayonnaise dressing.</dd>
+                    <dt>Summer Salad $5.00</dt>
+                        <dd>Salad with peas and green beans covered in olive oil and a bit of parsley. For the green lover!</dd>
+                </dl>
+            </section>
+            <section id="british_pies">
+                <h4>Meat Pies<img src="images/pie_image.jpg" alt="Steak and ale pie" width=20% height=20% align="right"></h4>
+                <h6>The typical dessert favored by many in Great Britain.</h6>
+                <dl>
+                    <dt>Turkey Pot Pie $5.00</dt>
+                        <dd>Pie filled with turkey, onions and eggs.</dd>
+                    <dt>Beef and Potato Pie $7.00</dt>
+                        <dd>Pie filled with beaf, potatoes, Worcestershire sauce, and onions.</dd>
+                    <dt>Stake and Ale Pie $8.00</dt>
+                        <dd>Pie filled with braising steak, brown ale, onions, and chestnut mushrooms.</dd>
+                    <dt>Leak and Lamb Pie $7.50</dt>
+                        <dd>Pie filled with leeks, leg of lamb, and eggs.</dd>
+                </dl>
+            </section>
+        </section>    
         <section id="chinese_menu">
-            <h2>Chinese Menu</h2>
+            <h3>Chinese Menu</h3>
             <p>Pick 1 appetizer, 2 entrées, and 2 deserts. All combinations are $25</p>
             <div id="columns">
                 <section id="chinese_appetizers" class="column">
-                    <h3>Appetizers</h3>
+                    <h4>Appetizers</h4>
                     <ul>
                         <li>Egg Drop Soup</li>
                         <li>Tea Egg</li>
@@ -26,7 +108,7 @@
                     </ul>
                 </section>
                 <section id="chinese_entrees" class="column">
-                    <h3>Entrées</h3>
+                    <h4>Entrées</h4>
                     <ul>
                         <li>Kung Pao Chicken</li>
                         <li>Peking Duck</li>
@@ -38,7 +120,7 @@
                     </ul>
                 </section>
                 <section id="chinese_desserts" class="column">
-                    <h3>Desserts</h3>
+                    <h4>Desserts</h4>
                     <ul>
                         <li>Mooncake</li>
                         <li>Sachima</li>
@@ -49,12 +131,10 @@
                 </section>
             </div>
         </section>
-        <section>
+        <section id="restaurant_location">
             <h2>Our Location</h2>
             <img src="https://maps.googleapis.com/maps/api/staticmap?center=buckinham%20palace&zoom=14&size=400x400" alt="We are located in BuckingHam Palace">
         </section>
-        
-
     </div>
 </body>
 </html>
